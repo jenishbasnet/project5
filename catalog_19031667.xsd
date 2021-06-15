@@ -1,0 +1,256 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="DirectorName">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="title" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="CoDirectorName">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="title" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="AssistantDirectorName">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="title" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="ProducerName">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="title" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="CoProducerName">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="title" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="ProductionCompany" type="xs:string"/>
+  <xs:element name="WritterName">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="title" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="CoWritterName">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="title" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="LeadSinger">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="title" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="FeaturingSinger">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="title" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="Vocalist">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="title" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="SongName" type="xs:string"/>
+  <xs:element name="Genre" type="xs:string"/>
+  <xs:element name="Directors">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="DirectorName"/>
+        <xs:element ref="CoDirectorName" minOccurs="0"/>
+        <xs:element ref="AssistantDirectorName" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="Producers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ProducerName"/>
+        <xs:element ref="CoProducerName" minOccurs="0"/>
+        <xs:element ref="ProductionCompany" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="Writters">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="WritterName"/>
+        <xs:element ref="CoWritterName" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="Singers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="LeadSinger"/>
+        <xs:element ref="FeaturingSinger" minOccurs="0"/>
+        <xs:element ref="Vocalist" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="ReleaseYear" type="xs:short"/>
+  <xs:element name="SongLength" type="xs:string"/>
+  <xs:element name="Album">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="type" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+
+<xs:attribute name="scale">
+    <xs:simpleType>
+      <xs:restriction base="xs:short">
+        <xs:maxExclusive value="100"/>
+        <xs:minExclusive value="1"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+
+  <xs:element name="BillboarddRank">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute ref="scale" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="Award">
+    <xs:complexType>
+      <xs:simpleContent>
+          <xs:extension base="xs:string">
+              <xs:attribute type="xs:string" name="won" use="optional"/>
+          </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:attribute name="song_id">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:pattern value="[S][0-9][0-9]"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+
+  <xs:element name="Label" type="xs:string"/>
+  <xs:element name="Price">
+  <xs:simpleType>
+      <xs:restriction base="xs:short">
+        <xs:maxExclusive value="5000"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+  <xs:element name="Song">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="SongName"/>
+        <xs:element ref="Genre"/>
+        <xs:element ref="Directors"/>
+        <xs:element ref="Producers"/>
+        <xs:element ref="Writters"/>
+        <xs:element ref="Singers"/>
+        <xs:element ref="ReleaseYear"/>
+        <xs:element ref="SongLength"/>
+        <xs:element ref="Album" minOccurs="0"/>
+        <xs:element ref="BillboarddRank" minOccurs="0"/>
+        <xs:element ref="Award" minOccurs="0"/>
+        <xs:element ref="Label" minOccurs="0"/>
+        <xs:element ref="Price"/>
+      </xs:sequence>
+      <xs:attribute ref="song_id" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="StoreName" type="xs:string"/>
+  <xs:element name="Address" type="xs:string"/>
+  <xs:element name="TelephoneNumber">
+    <xs:simpleType>
+      <xs:restriction base="xs:double">
+        <xs:pattern value="[9][8][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+  <xs:element name="Website" type="xs:string"/>
+  <xs:element name="Logo" type="xs:string"/>
+  <xs:element name="Songs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Song" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="MusicStore">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="StoreName"/>
+        <xs:element ref="Address"/>
+        <xs:element ref="TelephoneNumber"/>
+        <xs:element ref="Website"/>
+        <xs:element ref="Logo"/>
+        <xs:element ref="Songs"/>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="xsinoNamespaceSchemaLocation"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

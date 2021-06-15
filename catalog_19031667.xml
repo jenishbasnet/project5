@@ -1,0 +1,435 @@
+<?xml version="1.0"?>
+<!-- XML Song Record for music store-->
+<!-- 
+   Author: Jenish Basnet  
+   London Met ID:19031667
+-->
+<!DOCTYPE MusicStore SYSTEM "catalog_19031667.dtd">
+
+<?xml-stylesheet type="text/css" href="catalog_19031667.css"?>   
+<MusicStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog_19031667.xsd">
+    <StoreName>Music Hub</StoreName>
+    <Address>Kathmandu [Ring Road]</Address>
+    <TelephoneNumber>9812335566</TelephoneNumber>
+    <Website>www.musichub.com</Website>
+    <Logo></Logo>
+    <Songs>
+        <Song song_id="S01">
+            <SongName>Blinding Light</SongName>
+            <Genre>Pop</Genre>
+            <Directors>
+                <DirectorName title="Mr.">Anton Tammi</DirectorName>
+                <CoDirectorName title="Mr.">Oliver Millar</CoDirectorName>
+                <AssistantDirectorName title="Mr.">Aleksi Tammi</AssistantDirectorName>
+            </Directors>
+            <Producers>
+                <ProducerName title="Mrs.">Sarah Park</ProducerName>
+                <CoProducerName title="Mrs.">Saskia Whinney</CoProducerName>
+                <ProductionCompany>Somesuch</ProductionCompany>
+            </Producers>
+            <Writters>
+                <WritterName title="Mr.">Abel Makkonen Tesfaye</WritterName>
+                <CoWritterName title="Mr.">Balshe Ahmed</CoWritterName>
+            </Writters>
+            <Singers>
+                <LeadSinger title="Mr.">Abel Makkonen Tesfaye</LeadSinger>
+                <FeaturingSinger title="Mr.">Teddy Swims</FeaturingSinger>
+                <Vocalist title="Mr.">Nicole Milk</Vocalist>
+            </Singers>
+            <ReleaseYear>2020</ReleaseYear>
+            <SongLength>3:22</SongLength>
+            <Album type="Studio">After Hours</Album>
+            <BillboarddRank scale="15"/>
+            <Award won="BillboardMusicAward"/>
+            <Label>Republic</Label>
+            <Price>450</Price>
+        </Song>
+        <Song song_id="S02">
+            <SongName>Monster</SongName>
+            <Genre>Hip hop</Genre>
+            <Directors>
+                <DirectorName title="Mr.">Rich Lee</DirectorName>
+                <CoDirectorName title="Mr.">John D'Aquino</CoDirectorName>
+            </Directors>
+            <Producers>
+                <ProducerName title="Mr.">Bryan Fryzel</ProducerName>
+                <CoProducerName title="Mr.">Aaron Kleinstub</CoProducerName>
+            </Producers>
+            <Writters>
+                <WritterName title="Mr.">Marshall Bruce Mathers</WritterName>
+                <CoWritterName title="Mrs.">Robyn Rihanna Fenty</CoWritterName>
+            </Writters>
+            <Singers>
+                <LeadSinger title="Mr.">Marshall Bruce Mathers</LeadSinger>
+                <FeaturingSinger title="Mrs.">Robyn Rihanna Fenty</FeaturingSinger>
+            </Singers>
+            <ReleaseYear>2013</ReleaseYear>
+            <SongLength>5:18</SongLength>
+            <Album type="Studio">The Marshall Mathers LP 2</Album>
+            <BillboarddRank scale="14"/>
+            <Award won="GrammyAward"/>
+            <Label>Interscope</Label>
+            <Price>650</Price>
+        </Song>
+        <Song song_id="S03">
+            <SongName>Comethru</SongName>
+            <Genre>Pop</Genre>
+            <Directors>
+                <DirectorName title="Mr.">Ben Schmidt</DirectorName>
+            </Directors>
+            <Producers>
+                <ProducerName title="Mr.">Ben Schmidt</ProducerName>
+            </Producers>
+            <Writters>
+                <WritterName title="Mr.">Jermy Jucker</WritterName>
+                <CoWritterName title="Mrs.">Summer Marjani Walker</CoWritterName>
+            </Writters>
+            <Singers>
+                <LeadSinger title="Mr.">Jermy Jucker</LeadSinger>
+            </Singers>
+            <ReleaseYear>2020</ReleaseYear>
+            <SongLength>2:59</SongLength>
+            <Price>650</Price>
+        </Song>
+        <Song song_id="S04">
+            <SongName>I Don't Wanna Live Forever</SongName>
+            <Genre>Pop</Genre>
+            <Directors>
+                <DirectorName title="Mr.">Natalie Diane Grant</DirectorName>
+            </Directors>
+            <Producers>
+                <ProducerName title="Mr.">Saul Germaine</ProducerName>
+                <CoProducerName title="Mr.">Jack Antonoff</CoProducerName>
+                <ProductionCompany>Fifty Shades Vevo</ProductionCompany>
+            </Producers>
+            <Writters>
+                <WritterName title="Mrs.">Taylor Alison Swift</WritterName>
+                <CoWritterName title="Mr.">Sam Dew</CoWritterName>
+            </Writters>
+            <Singers>
+                <LeadSinger title="Mrs.">Taylor Alison Swift</LeadSinger>
+                <FeaturingSinger title="Mr.">Zain Javadd Malik</FeaturingSinger>
+            </Singers>
+            <ReleaseYear>2016</ReleaseYear>
+            <SongLength>4:05</SongLength>
+            <Label>Republic Records</Label>
+            <Price>600</Price>
+        </Song>
+        <Song song_id="S05">
+            <SongName>Hold My Hand</SongName>
+            <Genre>Pop</Genre>
+            <Directors>
+                <DirectorName title="Mr.">Michael Joseph Jackson</DirectorName>
+                <CoDirectorName title="Mr.">Giorgio H. Tuinfort</CoDirectorName>
+            </Directors>
+            <Producers>
+                <ProducerName title="Mr.">Michael Joseph Jackson</ProducerName>
+                <CoProducerName title="Mr.">Aliaume Damala Badara Akon Thiam</CoProducerName>
+            </Producers>
+            <Writters>
+                <WritterName title="Mr.">Aliaune Thiam</WritterName>
+                <CoWritterName title="Mr.">Claude Kelly</CoWritterName>
+            </Writters>
+            <Singers>
+                <LeadSinger title="Mr.">Michael Joseph Jackson</LeadSinger>
+                <FeaturingSinger title="Mr.">Aliaume Damala Badara Akon Thiam</FeaturingSinger>
+            </Singers>
+            <ReleaseYear>2010</ReleaseYear>
+            <SongLength>3:43</SongLength>
+            <BillboarddRank scale="39"/>
+            <Label>Epic</Label>
+            <Price>630</Price>
+        </Song>
+        <Song song_id="S06">
+            <SongName>Time to Pretend</SongName>
+            <Genre>Rock</Genre>
+            <Directors>
+                <DirectorName title="Mr.">Ray Tintori</DirectorName>
+                <CoDirectorName title="Mr.">Karyn Kusama</CoDirectorName>
+            </Directors>
+            <Producers>
+                <ProducerName title="Mr.">Dave Fridmann</ProducerName>
+            </Producers>
+            <Writters>
+                <WritterName title="Mr.">Ben Goldwasser</WritterName>
+                <CoWritterName title="Mr.">Andrew VanWyngarden</CoWritterName>
+            </Writters>
+            <Singers>
+                <LeadSinger title="Mr.">Andrew VanWyngarden</LeadSinger>
+                <FeaturingSinger title="Mr.">Hank Sullivant</FeaturingSinger>
+                <Vocalist title="Mr.">Ben Goldwasser</Vocalist>
+            </Singers>
+            <ReleaseYear>2008</ReleaseYear>
+            <SongLength>4:19</SongLength>
+            <Label>Columbia Records</Label>
+            <Price>300</Price>
+        </Song>
+        <Song song_id="S07">
+            <SongName>No Time to Die</SongName>
+            <Genre>Pop</Genre>
+            <Directors>
+                <DirectorName title="Mr.">Daniel Kleinman</DirectorName>
+                <CoDirectorName title="Mr.">Rachel McRady</CoDirectorName>
+            </Directors>
+            <Producers>
+                <ProducerName title="Mr.">O'Connell</ProducerName>
+                <CoProducerName title="Mr.">Stephen Lipson</CoProducerName>
+            </Producers>
+            <Writters>
+                <WritterName title="Mrs.">Billie Eilish</WritterName>
+                <CoWritterName title="Mr.">Finneas Baird O'Connell</CoWritterName>
+            </Writters>
+            <Singers>
+                <LeadSinger title="Mrs.">Billie Eilish</LeadSinger>
+            </Singers>
+            <ReleaseYear>2019</ReleaseYear>
+            <SongLength>4:02</SongLength>
+            <Album type="Single">No Time to Die</Album>
+            <BillboarddRank scale="11"/>
+            <Award won="BillboardMusicAward"/>
+            <Label>Interscope Records</Label>
+            <Price>650</Price>
+        </Song>
+        <Song song_id="S08">
+            <SongName>(I've Had) The Time Of My Life</SongName>
+            <Genre>Soft Rock</Genre>
+            <Directors>
+                <DirectorName title="Mr.">Bill Medley</DirectorName>
+                <CoDirectorName title="Mr.">Franke Previte</CoDirectorName>
+            </Directors>
+            <Producers>
+                <ProducerName title="Mr.">Michael Jeffrey Lloyd</ProducerName>
+                <ProductionCompany>RCA Records</ProductionCompany>
+            </Producers>
+            <Writters>
+                <WritterName title="Mr.">John DeNicola</WritterName>
+                <CoWritterName title="Mr.">Donald Markowitz</CoWritterName>
+            </Writters>
+            <Singers>
+                <LeadSinger title="Mr.">Bill Medley</LeadSinger>
+                <FeaturingSinger title="Mrs.">Jennifer Warnes</FeaturingSinger>
+            </Singers>
+            <ReleaseYear>1987</ReleaseYear>
+            <SongLength>4:42</SongLength>
+            <Album type="Live">Dirty Dancing Soundtrack</Album>
+            <BillboarddRank scale="65"/>
+            <Award won="GrammyAward"/>
+            <Label>RCA Records</Label>
+            <Price>550</Price>
+        </Song>
+        <Song song_id="S09">
+            <SongName>God Only Knows</SongName>
+            <Genre>Pop</Genre>
+            <Directors>
+                <DirectorName title="Mr.">Kirk Franklin</DirectorName>
+                <CoDirectorName title="Mrs.">Nadja Salerno-Sonnenberg</CoDirectorName>
+            </Directors>
+            <Producers>
+                <ProducerName title="Mr.">Matthew Nicholas Hales</ProducerName>
+                <CoProducerName title="Mr.">Blake Kanicka</CoProducerName>
+                <ProductionCompany> For King and Country</ProductionCompany>
+            </Producers>
+            <Writters>
+                <WritterName title="Mr.">Josh Kerr</WritterName>
+                <CoWritterName title="Mr.">Jordan Reynolds</CoWritterName>
+            </Writters>
+            <Singers>
+                <LeadSinger title="Mr.">Joel Smallbone</LeadSinger>
+                <Vocalist title="Mr.">Luke Smallbone</Vocalist>
+            </Singers>
+            <ReleaseYear>2019</ReleaseYear>
+            <SongLength>3:49</SongLength>
+            <BillboarddRank scale="39"/>
+            <Award won="GrammyAward"/>
+            <Label>Word Entertainment </Label>
+            <Price>650</Price>
+        </Song>
+        <Song song_id="S10">
+            <SongName>Misery</SongName>
+            <Genre>Rock</Genre>
+            <Directors>
+                <DirectorName title="Mr.">Joseph Jun-hee Kahn</DirectorName>
+                <CoDirectorName title="Mr.">Jesse Carmichael</CoDirectorName>
+            </Directors>
+            <Producers>
+                <ProducerName title="Mr.">Robert John "Mutt" Lange</ProducerName>
+                <CoProducerName title="Mr.">Sam Farrar</CoProducerName>
+            </Producers>
+            <Writters>
+                <WritterName title="Mr.">Adam Noah Levine</WritterName>
+                <CoWritterName title="Mr.">Jesse Royal Carmichael</CoWritterName>
+            </Writters>
+            <Singers>
+                <LeadSinger title="Mr.">Adam Noah Levine</LeadSinger>
+                <Vocalist title="Mr.">Sam John Farrar</Vocalist>
+            </Singers>
+            <ReleaseYear>2010</ReleaseYear>
+            <SongLength>3:36</SongLength>
+            <BillboarddRank scale="34"/>
+            <Award won="GrammyAward"/>
+            <Label>A and M Octone</Label>
+            <Price>650</Price>
+        </Song>
+        <Song song_id="S11">
+            <SongName>Don't get lost in heaven</SongName>
+            <Genre>Hip hop</Genre>
+            <Directors>
+                <DirectorName title="Mr.">Stephen Sedgwick</DirectorName>
+                <CoDirectorName title="Mr.">James Dring</CoDirectorName>
+                <AssistantDirectorName title="Mr.">Jason Cox</AssistantDirectorName>
+            </Directors>
+            <Producers>
+                <ProducerName title="Mr.">Brian Joseph Burton</ProducerName>
+                <CoProducerName title="Mr.">Jason Cox</CoProducerName>
+                <ProductionCompany>Gorillaz</ProductionCompany>
+            </Producers>
+            <Writters>
+                <WritterName title="Mr.">Jamie Hewlett</WritterName>
+            </Writters>
+            <Singers>
+                <LeadSinger title="Mr.">Isabelle Dunn</LeadSinger>
+                <FeaturingSinger title="Mr.">Will Street</FeaturingSinger>
+            </Singers>
+            <ReleaseYear>2005</ReleaseYear>
+            <SongLength>2:11</SongLength>
+            <Album type="Studio">Demon Days</Album>
+            <Label>Virgin Records Ltd</Label>
+            <Price>550</Price>
+        </Song>
+        <Song song_id="S12">
+            <SongName>No Lie</SongName>
+            <Genre>Pop</Genre>
+            <Directors>
+                <DirectorName title="Mr.">James Royo</DirectorName>
+                <CoDirectorName title="Mr.">Barry Grint</CoDirectorName>
+                <AssistantDirectorName title="Mr.">James Royo</AssistantDirectorName>
+            </Directors>
+            <Producers>
+                <ProducerName title="Mr.">Jamie Sanderson</ProducerName>
+                <CoProducerName title="Mr.">Philip Kembo</CoProducerName>
+            </Producers>
+            <Writters>
+                <WritterName title="Mr.">Andrew Jackson</WritterName>
+                <CoWritterName title="Mrs.">Emily Warren</CoWritterName>
+            </Writters>
+            <Singers>
+                <LeadSinger title="Mr.">Dua Lipa</LeadSinger>
+                <FeaturingSinger title="Mrs.">Sean Paul</FeaturingSinger>
+            </Singers>
+            <ReleaseYear>2016</ReleaseYear>
+            <SongLength>3:41</SongLength>
+            <BillboarddRank scale="85"/>
+            <Label>Island Records </Label>
+            <Price>550</Price>
+        </Song>
+        <Song song_id="S13">
+            <SongName>I Like It </SongName>
+            <Genre>Latin trap</Genre>
+            <Directors>
+                <DirectorName title="Mr.">Eif Rivera</DirectorName>
+            </Directors>
+            <Producers>
+                <ProducerName title="Mr.">Anthony Jermaine White</ProducerName>
+                <CoProducerName title="Mr.">Marco Masís</CoProducerName>
+                <ProductionCompany>Invincible</ProductionCompany>
+            </Producers>
+            <Writters>
+                <WritterName title="Mrs.">Belcalis Marlenis Almánzar</WritterName>
+                <CoWritterName title="Mr.">Benito Antonio Martínez Ocasio</CoWritterName>
+            </Writters>
+            <Singers>
+                <LeadSinger title="Mrs.">Belcalis Marlenis Almánzar</LeadSinger>
+                <FeaturingSinger title="Mr.">Benito Antonio Martínez Ocasio</FeaturingSinger>
+                <Vocalist title="Mr.">José Álvaro Osorio Balvín</Vocalist>
+            </Singers>
+            <ReleaseYear>2018</ReleaseYear>
+            <SongLength>4:13</SongLength>
+            <BillboarddRank scale="45"/>
+            <Award won="GrammyAward"/>
+            <Label>Atlantic Recording Corporation</Label>
+            <Price>550</Price>
+        </Song>
+        <Song song_id="S14">
+            <SongName>Lucky You</SongName>
+            <Genre>Hip hop</Genre>
+            <Directors>
+                <DirectorName title="Mr.">Rich Lee</DirectorName>
+                <CoDirectorName title="Mr.">John D'Aquino</CoDirectorName>
+            </Directors>
+            <Producers>
+                <ProducerName title="Mr.">Matthew Jehu Samuels</ProducerName>
+                <CoProducerName title="Mr.">Marshall Bruce Mathers</CoProducerName>
+            </Producers>
+            <Writters>
+                <WritterName title="Mr.">Marshall Bruce Mathers</WritterName>
+                <CoWritterName title="Mr.">Gary Maurice Lucas Jr.</CoWritterName>
+            </Writters>
+            <Singers>
+                <LeadSinger title="Mr.">Marshall Bruce Mathers</LeadSinger>
+                <FeaturingSinger title="Mr.">Gary Maurice Lucas Jr.</FeaturingSinger>
+            </Singers>
+            <ReleaseYear>2018</ReleaseYear>
+            <SongLength>4:04</SongLength>
+            <Album type="Live">Kamikaze</Album>
+            <BillboarddRank scale="15"/>
+            <Award won="BillboardMusicAward"/>
+            <Label>Aftermath Entertainment</Label>
+            <Price>650</Price>
+        </Song>
+        <Song song_id="S15">
+            <SongName>All the Stars</SongName>
+            <Genre>Pop</Genre>
+            <Directors>
+                <DirectorName title="Mr.">Dave Meyers</DirectorName>
+                <CoDirectorName title="Mr.">Bobby Loco</CoDirectorName>
+            </Directors>
+            <Producers>
+                <ProducerName title="Mr.">Mark Anthony Spears</ProducerName>
+                <CoProducerName title="Mr.">Alexander Shuckburgh</CoProducerName>
+            </Producers>
+            <Writters>
+                <WritterName title="Mr.">Kendrick Lamar Duckworth</WritterName>
+                <CoWritterName title="Mr.">Mark Anthony Spears</CoWritterName>
+            </Writters>
+            <Singers>
+                <LeadSinger title="Mr.">Kendrick Lamar Duckworth</LeadSinger>
+                <FeaturingSinger title="Mr.">Solána Imani Rowe</FeaturingSinger>
+            </Singers>
+            <ReleaseYear>2018</ReleaseYear>
+            <SongLength>3:52</SongLength>
+            <Album type="Single">Black Panther</Album>
+            <BillboarddRank scale="25"/>
+            <Award won="GrammyAward"/>
+            <Label>Top Dawg Entertainment</Label>
+            <Price>690</Price>
+        </Song>
+        <Song song_id="S16">
+            <SongName>Say Something</SongName>
+            <Genre>Country Pop</Genre>
+            <Directors>
+                <DirectorName title="Mr.">Arturo Perez Jr.</DirectorName>
+                <CoDirectorName title="Mr.">Barry Grint</CoDirectorName>
+            </Directors>
+            <Producers>
+                <ProducerName title="Mr.">La Blogothèque</ProducerName>
+                <CoProducerName title="Mr.">Justin Randall Timberlake</CoProducerName>
+                <ProductionCompany>Danja</ProductionCompany>
+            </Producers>
+            <Writters>
+                <WritterName title="Mr.">Justin Randall Timberlake</WritterName>
+                <CoWritterName title="Mr.">Larrance Dopson</CoWritterName>
+            </Writters>
+            <Singers>
+                <LeadSinger title="Mr.">Justin Randall Timberlake</LeadSinger>
+                <FeaturingSinger title="Mr.">Christopher Alvin Stapleton</FeaturingSinger>
+            </Singers>
+            <ReleaseYear>2018</ReleaseYear>
+            <SongLength>4:39</SongLength>
+            <Album type="Studio">Man of the woods</Album>
+            <BillboarddRank scale="24"/>
+            <Award won="BillboardMusicAward"/>
+            <Label>RCA Records</Label>
+            <Price>700</Price>
+        </Song>
+    </Songs>
+</MusicStore>

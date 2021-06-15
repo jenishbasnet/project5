@@ -1,0 +1,49 @@
+
+        <!ELEMENT MusicStore (StoreName,Address,TelephoneNumber,Website,Logo,Songs)>
+        <!ELEMENT StoreName (#PCDATA)>
+        <!ELEMENT Address (#PCDATA)>
+        <!ELEMENT TelephoneNumber (#PCDATA)>
+        <!ELEMENT Logo (#PCDATA)>
+        <!ELEMENT Website (#PCDATA)>
+        <!ELEMENT Songs (Song+)>
+        <!ELEMENT Song (SongName,Genre,Directors,Producers,Writters,Singers,ReleaseYear,SongLength,Album?,BillboarddRank?,Award?,Label?,Price)> 
+        <!ELEMENT SongName (#PCDATA)>
+        <!ELEMENT Genre (#PCDATA)>
+        <!ELEMENT Directors (DirectorName?,CoDirectorName?,AssistantDirectorName?)>
+        <!ELEMENT DirectorName (#PCDATA)>
+        <!ELEMENT CoDirectorName (#PCDATA)>
+        <!ELEMENT AssistantDirectorName (#PCDATA)>
+        <!ELEMENT Producers (ProducerName,CoProducerName?,ProductionCompany?)>
+        <!ELEMENT ProducerName (#PCDATA)>
+        <!ELEMENT CoProducerName (#PCDATA)>
+        <!ELEMENT ProductionCompany (#PCDATA)>
+        <!ELEMENT Writters (WritterName,CoWritterName?)>
+        <!ELEMENT WritterName (#PCDATA)>
+        <!ELEMENT CoWritterName (#PCDATA)>
+        <!ELEMENT Singers (LeadSinger+,FeaturingSinger?,Vocalist?)>
+        <!ELEMENT LeadSinger (#PCDATA)>
+        <!ELEMENT FeaturingSinger (#PCDATA)>
+        <!ELEMENT Vocalist (#PCDATA)>
+        <!ELEMENT ReleaseYear (#PCDATA)>
+        <!ELEMENT SongLength (#PCDATA)>
+        <!ELEMENT Album (#PCDATA)>
+        <!ELEMENT BillboarddRank (#PCDATA)>
+        <!ELEMENT Award (#PCDATA)>
+        <!ELEMENT Label (#PCDATA)>
+        <!ELEMENT Price (#PCDATA)>
+
+        <!ATTLIST Song song_id ID #REQUIRED>
+        <!ATTLIST DirectorName title (Mr. | Mrs.) #REQUIRED>
+        <!ATTLIST CoDirectorName title (Mr. | Mrs.) #REQUIRED>
+        <!ATTLIST AssistantDirectorName title (Mr. | Mrs.) #REQUIRED>
+        <!ATTLIST ProducerName title (Mr. | Mrs.) #REQUIRED>
+        <!ATTLIST CoProducerName title (Mr. | Mrs.) #REQUIRED>
+        <!ATTLIST WritterName title (Mr. | Mrs.) #REQUIRED>
+        
+        <!ATTLIST LeadSinger title (Mr. | Mrs.) #REQUIRED>
+        <!ATTLIST FeaturingSinger title (Mr. | Mrs.) #REQUIRED>
+        <!ATTLIST Vocalist title (Mr. | Mrs.) #REQUIRED>
+        <!ATTLIST CoWritterName title (Mr. | Mrs.) #REQUIRED>
+        <!ATTLIST Album type (Single | Studio | Live) #REQUIRED>
+        <!ATTLIST Award won (GrammyAward | BillboardMusicAward) #IMPLIED>
+        <!ATTLIST BillboarddRank scale CDATA #IMPLIED>
